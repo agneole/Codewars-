@@ -1,0 +1,68 @@
+
+Who likes it? 
+
+You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. 
+We want to create the text that should be displayed next to such an item.
+Implement a function likes :: [String] -> String, which must take in input array, containing the names of people 
+who like an item. It must return the display text as shown in the examples:
+Kata.Likes(new string[0]) => "no one likes this"
+Kata.Likes(new string[] {"Peter"}) => "Peter likes this"
+Kata.Likes(new string[] {"Jacob", "Alex"}) => "Jacob and Alex like this"
+Kata.Likes(new string[] {"Max", "John", "Mark"}) => "Max, John and Mark like this"
+Kata.Likes(new string[] {"Alex", "Jacob", "Mark", "Max"}) => "Alex, Jacob and 2 others like this"
+https://www.codewars.com/kata/5266876b8f4bf2da9b000362
+
+
+
+Build a pile of Cubes:
+
+Your task is to construct a building which will be a pile of n cubes. The cube at the bottom will have a volume of n^3, 
+the cube above will have volume of (n-1)^3 and so on until the top which will have a volume of 1^3.
+You are given the total volume m of the building. Being given m can you find the number n of cubes you will have to build?
+The parameter of the function findNb (find_nb, find-nb, findNb) will be an integer m and you have to return the 
+integer n such as n^3 + (n-1)^3 + ... + 1^3 = m if such a n exists or -1 if there is no such n.
+Examples:
+findNb(1071225) --> 45
+findNb(91716553919377) --> -1
+https://www.codewars.com/kata/5592e3bd57b64d00f3000047
+
+
+
+Correct the time-string:
+
+You have to create a method, that corrects a given time string. There was a problem in addition, 
+so many of the time strings are broken. Time-Format is european. So from "00:00:00" to "23:59:59". 
+Some examples:
+"09:10:01" -> "09:10:01"
+"11:70:10" -> "12:10:10"
+"19:99:99" -> "20:40:39"
+"24:01:01" -> "00:01:01"
+If the input-string is null or empty return exactly this value! (empty string for C++)
+If the time-string-format is invalid, return null. (empty string for C++)
+Have fun coding it and please don't forget to vote and rank this kata! :-)
+https://www.codewars.com/kata/57873ab5e55533a2890000c7
+
+
+
+Break camelCase:
+
+Complete the solution so that the function will break up camel casing, using a space between words.
+Example
+Kata.BreakCamelCase("camelCasing") => "camel Casing"
+https://www.codewars.com/kata/5208f99aee097e6552000148
+
+
+
+Summing a number's digits:
+
+Write a function named sumDigits which takes a number as input and returns the sum of the absolute value of each 
+of the number's decimal digits. For example:
+  sumDigits(10);  // Returns 1
+  sumDigits(99);  // Returns 18
+  sumDigits(-32); // Returns 5
+Let's assume that all numbers in the input will be integer values.
+https://www.codewars.com/kata/52f3149496de55aded000410
+
+
+
+
